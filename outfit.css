@@ -1,0 +1,44 @@
+.outfit-body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../../Images/taylor\ 3.jpeg);
+    margin: 0;
+    padding: 0;
+  }
+
+  .container2 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .outfit {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .outfit-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .outfit img {
+    width: calc(33.33% - 4px);
+    height: auto;
+  }
+  .outfit-content {
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .outfit h2 {
+    margin-top: 0;
+    color:darkblue;
+    text-shadow: none;
+  }
+  .outfit p {
+    margin-bottom: 0;
+    color: rgb(255, 93, 239);
+    text-shadow: none;
+  }
